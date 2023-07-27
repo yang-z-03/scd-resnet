@@ -1,0 +1,20 @@
+{
+    "datasetName": "scdx16p10",
+    "modelName": "centerOffsetRes18",
+    "trainName": "exp85-16p10-res18",
+    "batchSize": 32,
+    "validation": 1100,
+    "validationBatchSize": 64,
+    "iterations": 13200,
+    "snapshot": 6600,
+    "learningRate": 0.000125,
+    "learningRateDecay": [11000],
+    "learningRateDecayRate": [10],
+
+    "dirTemp": "/hy-tmp/temp/",
+    "dirPretrain": "/hy-tmp/pretrain/",
+    "dirResult": "/hy-tmp/results/",
+    "dirConfig": "/hy-tmp/src/configs/",
+    "dirDataset": "/hy-tmp/data/",
+    "dirDataSplitProfile": "/hy-tmp/data/scdx16p100.split.json"
+}

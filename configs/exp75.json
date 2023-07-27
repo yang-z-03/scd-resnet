@@ -1,0 +1,19 @@
+{
+    "datasetName": "scdx16p100",
+    "modelName": "centerOffsetRes18h",
+    "trainName": "exp75-16p100-res18h",
+    "batchSize": 32,
+    "validation": 2200,
+    "validationBatchSize": 64,
+    "iterations": 13200,
+    "snapshot": 13200,
+    "learningRate": 0.000125,
+    "learningRateDecay": [11000],
+    "learningRateDecayRate": [10],
+
+    "dirTemp": "/hy-tmp/temp/",
+    "dirPretrain": "/hy-tmp/pretrain/",
+    "dirResult": "/hy-tmp/results/",
+    "dirConfig": "/hy-tmp/src/configs/",
+    "dirDataset": "/hy-tmp/data/"
+}
