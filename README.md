@@ -105,4 +105,4 @@ python trace.py -a <{modelName} in your config> -m <your-model-file.pth> -s '1 1
 
 # Supplementary Materials
 
-`Available once published`
+DOI:	https://doi.org/10.1039/D3AN01616A
